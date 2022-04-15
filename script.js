@@ -12,7 +12,7 @@ function refreshWysiwyg(e){
     document.querySelector('.imgContent').style.width = '' +imgSize+ 'px';
 
     let borderImg = document.querySelector('.imgBorder').value;
-    document.querySelector('.imgContent').style.borderRadius = '' +borderImg+ 'px';
+    document.querySelector('.imgContent').style.borderRadius = '' +borderImg+ '%';
 
 
     e.preventDefault();
